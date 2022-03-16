@@ -1,4 +1,4 @@
-// Insertion at any position
+// Insertion at any position of linked list
 // Time - O(n)
 // Space - O(1)
 
@@ -67,9 +67,10 @@ int main()
     newNode->next = NULL;
     temp1->next->next = newNode;
 
-    // insert(&head, 80, 2);
-    insert(&head, 100, 1);
-    // insert(&head, 80, 2);
+    
+    // insert(&head, 80, 2);        // Insert at postion 2
+    insert(&head, 100, 1);          // Insert at postion 1
+    // insert(&head, 80, 3);        // Insert at postion 3
 
     struct node *start= head;
 
