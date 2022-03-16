@@ -1,0 +1,22 @@
+Problems on Binary Search - 
+
+1. Binary Search
+2. Binary Search on Reverse Sorted Array (Sorted in descending order)
+3. Order not known search (Order Agnostic Search)
+4. First and last occurence of element in Sorted array
+5. Count of an Element in a Sorted array
+6. Number of times a Sorted Array is rotated
+7. Find an element in a Rotated Sorted Array
+8. Searching in a Nearly Sorted Array
+9. Find floor of an element in a Sorted Array
+10. Ceil of an element in a Sorted Array
+11. Next Alphabetical element
+12. Find position of an element in an Infinte Sorted Array
+13. Index of First 1 in a Binary Sorted Infinite Array
+14. Minimum difference Element in a Sorted Array
+15. Binary Search on Answer concept
+16. Peak Element
+17. Find maximum element in Bitonic Array
+18. Search an element in Bitonic Array
+19. Search in Row-wise and Column-wise Sorted Array
+20. Allocate minimum number of pages
