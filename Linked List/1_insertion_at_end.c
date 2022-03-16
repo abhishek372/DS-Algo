@@ -1,4 +1,4 @@
-// Insertion at the end
+// Insertion at the end of linked list
 // Time - O(1)
 // Space - O(1)
 
