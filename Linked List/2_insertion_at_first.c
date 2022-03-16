@@ -1,6 +1,6 @@
-//Insertion at the beginning
-//Time - O(1)
-//Space - O(1)
+// Insertion at the beginning of linked list
+// Time - O(1)
+// Space - O(1)
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -45,7 +45,6 @@ int main()
 
     // Print linked list
     while(start!=NULL){
-
         printf("%d\n", start->data);
         start = start->next;
     }
