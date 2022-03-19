@@ -1,5 +1,6 @@
 // Insertion at any given position
-// Time - O(n)
+// To insert at any position, we have to shift the array elements from position to one index right
+// Time - O(N)
 // Space - O(1)
 
 
@@ -12,7 +13,8 @@ int insertAtIndex(int arr[], int idx, int n, int l)
     {
         arr[i] = arr[i-1];
     }
-    // Inser
+    
+    // Insert at required position
     arr[idx] = 20;
 
     cout<<"\nAfter insertion: "<<endl; 
@@ -41,7 +43,7 @@ int main()
         cout<<arr[i]<<" ";
     }
 
-    // Calling function with size of 10 and index of first empty block 
+    // Calling function with required position , array size of 8 and index of first empty block 
     insertAtIndex(arr, 2, 8, len);
     return 0;
 }
