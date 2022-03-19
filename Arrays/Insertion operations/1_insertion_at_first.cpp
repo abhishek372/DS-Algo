@@ -25,7 +25,7 @@ void insertAtFirst(int arr[], int n, int l)
 }
 int main()
 {
-    // Initialized array with 0 of size 10
+    // Initialized array with 0 of size 8
     int arr[8] = {0};
     int len = 0;
 
