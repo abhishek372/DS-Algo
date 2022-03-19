@@ -43,7 +43,7 @@ int main()
         cout<<arr[i]<<" ";
     }
 
-    // Calling function with size of 10 and index of first empty block 
+    // Calling function with size of 8 and index of first empty block 
     insertAtFirst(arr, 8, len);
     return 0;
 }
