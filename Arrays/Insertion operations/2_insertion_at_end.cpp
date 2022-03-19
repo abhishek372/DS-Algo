@@ -18,7 +18,7 @@ int insertAtEnd(int arr[], int n, int l)
 }
 int main()
 {
-    // Initialized array with 0 of size 10
+    // Initialized array with 0 of size 8
     int arr[8] = {0};
     int len = 0;
 
@@ -36,7 +36,7 @@ int main()
         cout<<arr[i]<<" ";
     }
 
-    // Calling function with size of 10 and index of first empty block 
+    // Calling function with size of 8 and index of first empty block 
     insertAtEnd(arr, 8, len);
     return 0;
 }
